@@ -1,3 +1,12 @@
+/* Header styling */
+header {
+    background-color: #00bfff;
+}
+
+header .bi {
+    vertical-align: middle;
+}
+
 .navbar {
     background: rgb(237, 120, 141);
 }
@@ -18,33 +27,40 @@
     color: #22f376;
 }
 
+body {
+    background: #F1F1F1;
+}
+
+.wrap-1 {
+    background: #F1F1F1;
+}
+
 .wrap-1 h1 {
     color: rgb(50, 176, 80);
-    text-decoration: underline; /* Changed from solid to underline */
-    padding-top: 200px;
-    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 .wrap-1 p {
-    display: block;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.wrap-2 h1 {
-    color: rgb(50, 176, 80);
+.container {
+    text-align: left;
 }
 
-.wrap-2 p {
-    text-decoration: underline wavy; /* Added underline to wavy */
+.wrap-1 img {
+    margin-top: 20px;
 }
 
-.wrap-4 h1,
-.wrap-4 h2 {
-    color: rgb(50, 176, 80);
-    text-decoration: underline; /* Changed from solid to underline */
+.btn-success{
+    width:100px;
+    border-radius: 0px;
+}
+.btn-outline-success{
+    width: 150px;
 }
 
-.wrap-5 h1 {
-    color: rgb(50, 176, 80);
-    text-align: center;
+.about-us{
+    color: #19B688;
 }
