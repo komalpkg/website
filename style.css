@@ -1,0 +1,50 @@
+.navbar {
+    background: rgb(237, 120, 141);
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-item:hover {
+    background-color: hsl(190, 60%, 98%);
+}
+
+.nav-item:hover .nav-link {
+    color: #22f376;
+}
+
+.navbar-brand i {
+    color: #22f376;
+}
+
+.wrap-1 h1 {
+    color: rgb(50, 176, 80);
+    text-decoration: underline; /* Changed from solid to underline */
+    padding-top: 200px;
+    margin-left: 50px;
+}
+
+.wrap-1 p {
+    display: block;
+    text-align: center;
+}
+
+.wrap-2 h1 {
+    color: rgb(50, 176, 80);
+}
+
+.wrap-2 p {
+    text-decoration: underline wavy; /* Added underline to wavy */
+}
+
+.wrap-4 h1,
+.wrap-4 h2 {
+    color: rgb(50, 176, 80);
+    text-decoration: underline; /* Changed from solid to underline */
+}
+
+.wrap-5 h1 {
+    color: rgb(50, 176, 80);
+    text-align: center;
+}
