@@ -1,31 +1,98 @@
 /* Header styling */
 header {
-    background-color: #00bfff;
+    background-color: #46A7B5;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #b6b6b6;
+    
+}
+
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.josefin-sans-bold {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.josefin-sans-semibold {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+
+}
+
+.josefin-sans-light {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26.7px;
+}
+.Al{
+    height: 98px;
+    width: 504px;
+}
+.c1{
+    font-size: 20px;
+}
+.c2{
+    font-size: 20px;
 }
 
 header .bi {
     vertical-align: middle;
 }
 
-.navbar {
-    background: rgb(237, 120, 141);
-}
-
 .nav-item {
     padding: 0 20px;
+
+}
+
+
+.nav-item .active {
+    background: #19B688;
+    color: #fff;
 }
 
 .nav-item:hover {
-    background-color: hsl(190, 60%, 98%);
+    background-color: #19B688;
+    color: #ffffff;
+    
+    
+
 }
 
 .nav-item:hover .nav-link {
-    color: #22f376;
+    color:#fff;
+}
+
+.navbar {
+    background-color: #ffffff;
 }
 
 .navbar-brand i {
-    color: #22f376;
+    color: #19B688;
+
 }
+
 
 body {
     background: #F1F1F1;
@@ -36,7 +103,7 @@ body {
 }
 
 .wrap-1 h1 {
-    color: rgb(50, 176, 80);
+    color: #19B688;
     margin-bottom: 20px;
 }
 
@@ -45,22 +112,269 @@ body {
     margin-bottom: 20px;
 }
 
-.container {
-    text-align: left;
-}
-
 .wrap-1 img {
     margin-top: 20px;
 }
 
-.btn-success{
-    width:100px;
-    border-radius: 0px;
-}
-.btn-outline-success{
-    width: 150px;
+.btn-success {
+    width: 100px;
+    border-radius: 0px;  
+
 }
 
-.about-us{
+.btn-outline-success {
+    width: 150px;
+    border-radius: 0px;
+}
+
+.about-us {
     color: #19B688;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+.K3 {
+    font-size: 14px;
+    line-height: 18.69px;
+    text-align: justify;
+    margin-left: 130px;
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+.K4 {
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12.65px;
+    text-align: center;
+    margin-left: 120px;
+    
+}
+
+.wrap-3 {
+    background-color: #5ca6bd;
+    color: #fff;
+    position: relative;
+    background-image: url(assets/Mask\ group.png);
+
+
+}
+
+.wrap-3 .card {
+    background-color: transparent;
+    border: none;
+    padding: 80px 0;
+}
+
+.wrap-3 .card-body {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+
+.wrap-3 .card-title {
+    color: #19B688;
+}
+
+.services-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+
+.services-section h2 {
+    font-size: 40px;
+    color: #19B688;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 154px;
+    height: 40px;
+    
+}
+
+.services-section p {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.c1{
+    font-size: 16px;
+}
+.c2{
+    font-size: 16px;
+}
+
+.services-section .service-item {
+    text-align: center;
+    margin-bottom: 150px;
+    left: 80px;
+    
+}
+
+
+
+.services-section .service-item h5 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #19B688;
+}
+
+
+.services-section .service-item p {
+    color: #000000;
+}
+
+.services-section .read-more-btn {
+    color: #19B688;
+    border: 1px solid #19B688;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.services-section .read-more-btn:hover {
+    background-color: #fff;
+    color: #19B688;
+}
+
+.service {
+    color: #19B688;
+    font-size: 20px;
+}
+
+.images {
+    color: #19B688;
+    margin-bottom: 45px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 93.8px; 
+}
+.container {
+    text-align: left;
+}
+
+
+.products {
+    color: #19B688;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#new-products {
+    background-color: #fff;
+    
+}
+.pr{
+    color: #000000;
+ }
+.pr1{
+    color: #000000;
+    height: 149px;
+    width: 490px;
+    text-align: justify;
+    
+}
+.img-fluid1{
+    padding-top: 70px;
+    margin-bottom: 70px;
+
+}
+.img-fluid {
+    background-color: white;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    background-image: url('./assets/Vector.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+footer {
+    background-color: #3ab3b8;
+    color: white;
+    padding: 20px 0;
+}
+
+.contact-us a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#clients{
+    position: relative;
+}
+#clients::before{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: px;
+    width: 218px;
+    height: 361px;
+    background-image: url(assets/wire.png);
+    z-index: 4;
+}
+#clients::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 454px;
+    height: 397px;
+    background-image: url(assets/wire1.png);
+    z-index: -1;
+}
+#about-us::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 52px;
+    height: 175px;
+    background-image: url(assets/Group\ 34\ \(1\).png);
+    z-index: 3;
+}
+#about-us::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 52px;
+    height: 290px;
+    background-image: url(assets/Group\ 33\ \(1\).png);
+    z-index: 5;
+}
+
+.kl{
+    position: relative;
+}
+.k33 img{
+    position: absolute;
+}
+.k34 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.service-item{
+    position: relative;
+}
+.S2 img{
+    position: absolute;  
+    
+}
+.S1 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    
+    
 }
